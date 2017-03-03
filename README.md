@@ -1,5 +1,5 @@
 # node-todoapp
-A todo application based on Nodejs and Expressjs
+A node todo application based on Nodejs and Expressjs
 <br>
 To use this application , follow the following :
 <hr>
