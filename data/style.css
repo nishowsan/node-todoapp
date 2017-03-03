@@ -1,0 +1,32 @@
+p{color:#333}
+div{
+    position: absolute;
+    left: 30%;
+}
+.form-control{
+    width: 430px;
+}
+.well-v{
+    width: 470px;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+}
+li{
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+body{
+    margin: 30px;
+}
+li:hover{
+    text-decoration: line-through;
+    border-radius: 2px;
+    transition: all 2s;
+}
+.btn-primary:hover{
+    background-color: #286090;
+    transition: all 2s;
+}

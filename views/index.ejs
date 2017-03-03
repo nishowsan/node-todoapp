@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, 
+    user-scalable=no, initial-scale=1.0, maximum-scale=1.0, 
+    minimum-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="/data/ajax.js"></script>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/data/style.css">
+</head>
+<body>
+    <div class="well">
+    <form action="/" class="form-group">
+        <label for="input">Add Item : </label>
+        <input type="text" name="main" id="input" class="form-control" name="input">
+        <hr>
+        <input id="submit" class="btn btn-primary" type="submit" value="submit">
+    </form>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="well well-v">
+    <label>Items:</label>
+    <hr>
+    <ol>
+        <% for(var i=0; i<data.length; i++) {%>
+        <li id="del" name="del"><%= data[i].item %></li>
+    <% } %>
+    </ol>
+    </div>
+</body>
+</html>
+    
